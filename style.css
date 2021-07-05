@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+@media (max-width: 1560px) {
+
+    .container {
+        width: 625px;
+    }
+
+    .heading {
+        font-size: 32px;
+    }
+
+    .inputarea {
+        width: 64%;
+        float: left;
+    }
+
+    .controls a {
+        width: 34%;
+        float: right;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .container {
+        width: 90%;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    .inputarea {
+        width: 100%;
+    }
+
+    .inputarea, .controls a {
+        width: 100%;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+    padding: 32px;
+}
+
+.logo img {
+    width: 15%;
+    margin: 32px;
+}
+
+.title {
+    font-size: 12px;
+    font-weight: 700;
+    color: #666666;
+}
+
+.heading {
+    font-weight: 500;
+    color: hsl(0, 0%, 59%);
+}
+
+.heading b {
+    color: hsl(209, 33%, 12%);
+    font-weight: 700;
+}
+
+.title p:nth-child(2) {
+    font-size: 15px;
+    padding: 16px;
+    font-weight: 400;
+}
+
+.controls {
+    width: 100%;
+    padding: 12px 0;
+}
+
+.inputarea {
+    padding: 6px 0;
+}
+
+.inputarea input {
+    width: 100%;
+    padding: 10px 18px;
+    border-radius: 100px;
+    outline: none;
+    border: 2px solid hsl(223, 100%, 88%);
+}
+
+.controls span {
+    width: 100%;
+    color: hsl(354, 100%, 66%);
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.controls a {
+    margin: 6px 0;
+    padding: 12px;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    background-color: hsl(223, 87%, 63%);
+    border-radius: 100px;
+    box-shadow: 0 5px 5px hsla(223, 87%, 63%, .25);
+}
+
+.controls a:hover {
+    cursor: pointer;
+    opacity: .85;
+}
+
+.dashboard img {
+    padding: 50px 0;
+    width: 100%;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.social-icons .icon {
+    width: 30px;
+    height: 30px;
+    margin: auto 12px;
+    border: 1px solid hsl(223, 100%, 88%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    transition: 500ms;
+}
+
+.social-icons .icon svg {
+    width: 12px;
+    fill: hsl(223, 87%, 63%);
+}
+
+.social-icons .icon:hover {
+    background-color: hsl(223, 87%, 63%);
+    cursor: pointer;
+}
+
+.social-icons .icon:hover > svg {
+    fill: #ffffff;
+}
+
+.attribution, .footer p {
+    color: hsl(0, 0%, 59%);
+    font-size: 12px;
+    text-align: center;
+    padding: 4px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
